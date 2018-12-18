@@ -1,0 +1,65 @@
+Assignment 1 - MASH
+
+Name: Cory Davis
+
+
+Grade: 86
+
+Functionality:
+
+test
+
+F1: [5 / 5]: Run 1 command with at least 1 argument against the file - (arg no mash).
+
+F2: [5 / 5]: Run 1 command with up to 5 arguments against the file - (arg no mash).
+
+F3: [5 / 5]: Run 3 commands with no arguments against the file - (arg no mash).
+
+F4: [10 / 10]: Run 3 commands with up to 5 arguments against the file - (arg no mash).
+
+F5: [5 / 5]: Display 80-character command header lines in order when each process is started.
+
+F6: [5 / 5]: Display 80-character delimiter lines seperating output from each command.
+
+F7: [0 / 5]: Display wall clock time in milliseconds for processing each output result.
+
+F8: [0 / 5]: Display total elapsed time in milliseconds for running all of the MASH commands.
+
+F9: [10 / 15]: Display MASH command output in the order the user entered each command. 
+
+
+testp
+
+P1: [10 / 10]: Run 3 commands in parallel to reduce overall execution 
+time
+
+teste
+
+E1: [6 / 10]: End gracefully. Parent process prints last line reporting PID's of finished children. the program returns cleanly to calling shell.
+
+E2: [0 / 5]: STATUS CODE message shown for failed command.
+
+E3: [5 / 5]: If one command fails, others can work.
+
+
+Miscellaneous:
+
+M1: [5 / 5]: Program compiles, and does not crash upon testing.
+
+M2: [5 / 5]: Coding style, formatting, and comments.
+
+M3: [5 / 5]: Makefile with valid "all" and "clean" targets.
+
+M4: [5 / 5]: Output format matches the provided example.
+
+
+
+Comments:
+
+F7, F8: No timing were listed.
+
+F9: Command outputs are shown out of order sometimes.
+
+E1: No PIDs are listed. Have to ctrl+c at the end of execution to return to shell.
+
+E2: STATUS CODE -1 isn't shown on failed commands.
